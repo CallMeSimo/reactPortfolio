@@ -1,38 +1,285 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap");
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-crimson: "Crimson Text", serif;
+
+  --header-color: #a63446;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #0d1117;
+  color: #fff8f0;
+  font-family: var(--font-raleway);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 15px 0;
+  width: 125px;
+  padding: 0;
+  font-size: 1.5em;
+  color: var(--header-color);
+  font-family: var(--font-roboto);
+  line-height: 0.9em;
+  border-bottom: 2px solid#fbfef968;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr {
+  border: none;
+  height: 0px;
+  left: 0;
+  background-color: white;
+  border-radius: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  margin: 0;
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav,
+footer {
+  font-family: var(--font-roboto);
+  display: flex;
+  font-size: 0.9em;
+}
+nav {
+  position: sticky;
+  top: 0;
+  margin-bottom: 25px;
+  z-index: 2;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  backdrop-filter: blur(5px);
+}
+footer {
+  display: flex;
+  align-content: flex-end;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+/* Mobile */
+nav .navBg {
+  background-color: #7e1946;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.ContentContainer {
+  position: relative;
+  width: 85%;
+  margin: auto;
+}
+
+.ContentContainer .AuthorProps {
+  display: flex;
+  align-items: center;
+}
+
+.ContentContainer .AuthorProps img {
+  width: 125px;
+  border-radius: 100px;
+  /* border: 1px solid var(--header-color); */
+}
+
+.ContentContainer .synopsis {
+  position: relative;
+  text-align: justify;
+  margin: 25px 0;
+}
+.ContentContainer .synopsis p::before {
+  content: open-quote;
+  font-size: 4rem;
+  top: 1.2rem;
+  left: -1.4rem;
+  position: absolute;
+}
+
+.ContentContainer .timeline {
+  flex-direction: column;
+}
+.ContentContainer .timeline .date {
+  display: flex;
+  margin: 10px 0;
+}
+.ContentContainer .timeline .timelineDate {
+  /* margin-right: 25px; */
+  font-weight: Bold;
+  font-style: italic;
+}
+
+.ContentContainer .hobbies {
+  flex-direction: column;
+}
+.ContentContainer .hobbies .hobbie {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+}
+.ContentContainer .hobbies .hobbieTitle {
+  font-weight: Bold;
+  font-style: italic;
+}
+
+.ContentContainer .subTitle {
+  font-size: 0.9em;
+  width: 100px;
+}
+
+.ContentContainer .subTitleContext {
+  width: 200px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+/*Mobile Page:work*/
+.githubProfile {
+  background-color: #22272e6d;
+  border-radius: 20px;
+  min-height: 250px;
+  padding: 15px 15px;
+  box-shadow: 0 3px 12px black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.githubProfile img {
+  width: 120px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+.githubHeader {
+  display: flex;
+  flex-direction: row;
+}
+.githubProfile .githubProfileInfo {
+  font-size: 0.8em;
+  text-align: justify;
+}
+.githubProfile .githubProfileInfo .githubStats {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  font-size: 0.8em;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Desktop */
+@media screen and (min-width: 800px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 15px 0;
+    width: 450px;
+    padding: 0;
+    font-size: 3em;
+    color: var(--header-color);
+    font-family: var(--font-roboto);
+    line-height: 0.9em;
+    border-bottom: 0px solid#fbfef968;
   }
-  to {
-    transform: rotate(360deg);
+
+  hr {
+    border: none;
+    height: 0px;
+    left: 0;
+    background-color: white;
+    border-radius: 35px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9em;
+    opacity: 0.9;
+  }
+
+  /* Mobile */
+  nav .navBg {
+    background-color: #7e1946;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .ContentContainer {
+    width: 550px;
+  }
+
+  .ContentContainer .AuthorProps {
+    justify-content: space-between;
+  }
+
+  .ContentContainer .AuthorProps img {
+    width: 125px;
+    border-radius: 100px;
+  }
+
+  .ContentContainer .synopsis {
+    letter-spacing: 1px;
+    margin: 25px 0;
+  }
+
+  .ContentContainer .synopsis p::before {
+    content: open-quote;
+    font-size: 8rem;
+    top: 1.2rem;
+    left: -3rem;
+    position: absolute;
+  }
+  .ContentContainer .timeline .date {
+    display: flex;
+    margin: 10px 0;
+  }
+  .ContentContainer .timeline .timelineDate {
+    /* margin-right: 25px; */
+    font-weight: Bold;
+    font-style: italic;
+  }
+
+  .ContentContainer .hobbies {
+    flex-direction: column;
+  }
+  .ContentContainer .hobbies .hobbie {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .ContentContainer .hobbies .hobbieTitle {
+    font-weight: Bold;
+    font-style: italic;
+  }
+
+  .ContentContainer .subTitle {
+    font-family: var(--font-roboto);
+    font-size: 1.2em;
+    width: 125px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+
+  .ContentContainer .subTitleContext {
+    width: 350px;
+    text-align: left;
+    letter-spacing: 2px;
   }
 }
