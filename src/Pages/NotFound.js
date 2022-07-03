@@ -1,7 +1,7 @@
 export default function NotFound() {
   return (
-    <div>
-      <h2>404 :)</h2>
+    <div className="notFound">
+      <span>Page does not exist :&#x2044;</span>
     </div>
   );
 }

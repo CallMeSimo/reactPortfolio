@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AnimatedPage from "./Components/AnimationHandler";
 
 import Navbar from "./Components/Navbar.jsx";
 import Footer from "./Components/Footer";
@@ -17,13 +18,16 @@ const App = () => {
       <Router>
         <Navbar />
         <div className="ContentContainer">
-          <Routes>
-            <Route path="/Home" element={<Home />} />
-            <Route path="/MyWork" element={<MyWork />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Contact" element={<Home />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <AnimatedPage>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/MyWork" element={<MyWork />} />
+              <Route path="/About" element={<About />} />
+              <Route path="/Contact" element={<Home />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </AnimatedPage>
         </div>
         <Footer />
       </Router>
