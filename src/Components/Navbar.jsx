@@ -4,15 +4,15 @@ import Resume from "./ResumeDowload";
 export default function Navbar() {
   return (
     <nav>
+      <Link to="/Home">Home</Link>
+      <Link to="/MyWork">MyWork</Link>
       <a
-        href={`http://localhost:3000/src/documents/Resume_Wassim-El-Haddaoui.pdf`}
+        href={`/documents/WassimElhaddaoui.pdf`}
+        download="WassimElhaddaoui.pdf"
         className="resumeDownload"
       >
         Resume
       </a>
-      <Link to="/Home">Home</Link>
-      <Link to="/MyWork">Work</Link>
-      <Link to="/">Github</Link>
     </nav>
   );
 }
