@@ -26,7 +26,7 @@ export default function Home() {
         <div className="synopsis">
           <h2>Synopsis</h2>
           <p>
-The candidate has experience as a WordPress Developer and has completed internships with a focus on optimization strategies, responsive design, and website analytics. They have also worked on a collaborative project as a Developer and have experience with complex hardware, software, and network issues. The candidate has a degree in Information and Media Technology and completed IoT projects. They also have experience leading workshops and possess strong communication and leadership skills.          </p>
+          I am an experienced software developer with a focus on creating efficient and effective solutions. Through my career, I have honed my skills in optimizing strategies, responsive design, and website analytics. I have successfully tackled complex hardware, software, and network issues, consistently demonstrating my problem-solving abilities. With a degree in Information and Media Technology, I have completed impactful IoT projects and gained experience leading workshops, highlighting my leadership and communication skills. Fluent in both Swedish and English, I possess excellent communication abilities essential for collaborating effectively with diverse teams</p>
         </div>
         <div className="timeline">
           <h2>Experience</h2>
