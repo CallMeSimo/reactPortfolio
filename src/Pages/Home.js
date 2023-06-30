@@ -26,51 +26,83 @@ export default function Home() {
         <div className="synopsis">
           <h2>Synopsis</h2>
           <p>
-            I’m a web developer & programmer with about one years worth of
-            experience with HTML5, CSS3, JavaScript, WordPress and PHP also have
-            experience in other languages such as Python, C#, and PLC
-            Structured-text. Some of these I learned while doing collaboration
-            projects, some from internships. My work assignments are not always
-            relevant to my expertise, but that does not stop me from performing
-            them.
-          </p>
+The candidate has experience as a WordPress Developer and has completed internships with a focus on optimization strategies, responsive design, and website analytics. They have also worked on a collaborative project as a Developer and have experience with complex hardware, software, and network issues. The candidate has a degree in Information and Media Technology and completed IoT projects. They also have experience leading workshops and possess strong communication and leadership skills.          </p>
         </div>
         <div className="timeline">
-          <h2>Timeline</h2>
+          <h2>Experience</h2>
           <div className="date">
-            <span className="timelineDate subTitle">2022/22/2</span>
+            <span className="timelineDate subTitle">Mar 2022 -<br /> Apr 2022 <br /><br />WordPress Developer, MADPromotions (Internship)</span>
             <p className="subTitleContext">
               {" "}
-              some from internships. My work assignments are not always relevant
-              to my expertise
+			  <ul>
+				<li>
+				               Conducted site audits and implemented optimization strategies for improved site speed and SEO
+				</li>
+				<li>
+				                Developed responsive designs and mobile-first solutions
+
+				</li>
+				<li>
+				                Utilized website analytics tools, such as Google Analytics
+
+				</li>
+				<li>
+ Demonstrated excellent problem-solving and debugging skills
+
+				</li>
+			  </ul>
+
             </p>
           </div>
           <div className="date ">
-            <span className="timelineDate subTitle">2022/22/2</span>
+            <span className="timelineDate subTitle">Mar 2022 - <br />Apr 2022 <br /><br /> Developer, ASSA ABLOY Entrance System (Internship)</span>
             <p className="subTitleContext">
               {" "}
-              some from internships. My work assignments are not always relevant
-              to my expertise
+			  <ul>
+				<li>
+				                              Guided and assigned tasks to a 3-person collaboration project
+
+				</li>
+				<li>
+				                Organized meetings to solve communication issues between devices
+
+				</li>
+				<li>
+ Divided responsibilities for creating HMI between designer and programmer
+
+				</li>
+				<li>
+ Operated complex hardware, software, and network problems and prepared reports summarizing and analyzing the issues
+
+				</li>
+ 
+			  </ul>
+
             </p>{" "}
           </div>
           <div className="date ">
-            <span className="timelineDate subTitle">2022/22/2</span>
+            <span className="timelineDate subTitle">Oct 2022 - <br />Present<br /><br /> Technician, Stena Recycling AB</span>
             <p className="subTitleContext">
-              {" "}
-              some from internships. My work assignments are not always relevant
-              to my expertise
+              {" "}<ul>
+				<li>
+              Manage and configure servers, drive enclosures, switches, desktops, and laptops
+
+				</li>
+				<li>
+Test and resolve basic issues related to networking equipment
+
+				</li>
+				<li>
+Manage network configurations and set up new devices
+
+				</li> 
+			  </ul>
+
             </p>{" "}
           </div>
-          <div className="date ">
-            <span className="timelineDate subTitle">2022/22/2</span>
-            <p className="subTitleContext">
-              {" "}
-              some from internships. My work assignments are not always relevant
-              to my expertise
-            </p>{" "}
-          </div>
+      
         </div>
-        <div className="hobbies">
+        {/*<div className="hobbies">
           <h2>Hobbies</h2>
 
           <div className="hobbie">
@@ -105,21 +137,21 @@ export default function Home() {
               to my expertise
             </p>{" "}
           </div>
-        </div>
+</div> */}
         <div className="sources">
           <h2>Sources</h2>
 
-          <div className="source" onClick={() => {}}>
-            <img src="#" className="sourceImage subTitle" />
+          <div className="source" onClick={() => {window.location = "https://github.com/CallMeSimo"}}>
+            <img src="Images\Github-Icon.svg" className="sourceImage subTitle" />
             <p className="subTitleContext">Find me here</p>
           </div>
-          <div className="source" onClick={() => {}}>
-            <img src="#" className="sourceImage subTitle" />
-            <p className="subTitleContext">Find me here</p>
+          <div className="source" onClick={() => {window.location = "https://www.linkedin.com/in/wassim-el-haddaoui/"}}>
+            <img src="Images\linkedin-icon.svg" className="sourceImage subTitle" />
+            <p className="subTitleContext">Or here</p>
           </div>
-          <div className="source" onClick={() => {}}>
-            <img src="#" className="sourceImage subTitle" />
-            <p className="subTitleContext">Find me here</p>
+          <div className="source" onClick={() => {window.open('mailto:Elhaddaouiwassim@gmail.com?subject=SimoPortfolio')}}>
+            <img src="Images\email-icon.svg" className="sourceImage subTitle" />
+            <p className="subTitleContext">And here I guess</p>
           </div>
         </div>
       </div>

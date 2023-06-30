@@ -18,6 +18,8 @@ html {
   color: #fff8f0;
   font-family: var(--font-raleway);
   background-image: url("Images/topography.svg");
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
 }
 h1,
 h2,
@@ -61,6 +63,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul{
+  margin:0;
+}
 
 /* .vis {
   top: 0;
@@ -91,7 +96,6 @@ nav {
   padding-left: 50px;
   align-items: center;
   justify-content: flex-start;
-  backdrop-filter: blur(5px);
 }
 
 footer {
@@ -131,7 +135,6 @@ nav .resumeDownload:hover {
   width: 80%;
   margin: auto;
   padding: 15px;
-  backdrop-filter: blur(2px);
 }
 
 .simoBanner {
@@ -211,7 +214,7 @@ nav .resumeDownload:hover {
 }
 
 .ContentContainer .subTitle {
-  font-size: 0.9em;
+  font-size: 0.8em;
   width: 100px;
 }
 
@@ -224,9 +227,17 @@ nav .resumeDownload:hover {
 .ContentContainer .sources {
   display: flex;
   flex-direction: column;
+  gap:10px;
 }
 .ContentContainer .source {
   display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.ContentContainer .source .sourceImage{
+  height: 100%;
 }
 
 /*Mobile Page:work*/
@@ -374,6 +385,7 @@ nav .resumeDownload:hover {
 
   .ContentContainer {
     width: 400px;
+	backdrop-filter: blur(2px);
   }
 
   .ContentContainer .AuthorProps {
@@ -404,10 +416,11 @@ nav .resumeDownload:hover {
   }
   .ContentContainer .timeline {
     margin: 25px 0 25px 0;
+	
   }
   .ContentContainer .timeline .date {
     display: flex;
-    margin: 10px 0;
+    margin: 40px 0;
   }
   .ContentContainer .timeline .timelineDate {
     /* margin-right: 25px; */
@@ -431,7 +444,7 @@ nav .resumeDownload:hover {
 
   .ContentContainer .subTitle {
     font-family: var(--font-roboto);
-    font-size: 0.85em;
+    font-size: 0.70em;
     width: 125px;
   }
 
