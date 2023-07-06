@@ -212,6 +212,7 @@ nav .resumeDownload:hover {
   /* margin-right: 25px; */
   font-weight: Bold;
   font-style: italic;
+  font-size:1em;
 }
 
 .ContentContainer .hobbies {
@@ -241,7 +242,7 @@ nav .resumeDownload:hover {
 .ContentContainer .sources {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap:20px;
 }
 .ContentContainer .source {
   display: flex;
@@ -412,7 +413,7 @@ nav .resumeDownload:hover {
   }
 
   .ContentContainer .AuthorProps img {
-    width: 125px;
+    width: 250px;
     border-radius: 100px;
   }
 
@@ -431,7 +432,8 @@ nav .resumeDownload:hover {
     top: 40%;
   }
   .ContentContainer .timeline {
-    margin: 25px 0 25px 0;
+    display:flex;
+    flex-direction: column;
 	
   }
   .ContentContainer .timeline .date {
@@ -465,7 +467,7 @@ nav .resumeDownload:hover {
   }
 
   .ContentContainer .subTitleContext {
-    width: 350px;
+    width: 550px;
     text-align: left;
     letter-spacing: 2px;
   }

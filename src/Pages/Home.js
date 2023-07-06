@@ -31,7 +31,7 @@ export default function Home() {
         <div className="timeline">
           <h2>Experience</h2>
           <div className="date">
-            <span className="timelineDate subTitle">Mar 2022 -<br /> Apr 2022 <br /><br />WordPress Developer, MADPromotions (Internship)</span>
+            <span className="timelineDate subTitle">April 2022 -<br /> May 2022 <br /><br />WordPress Developer, MADPromotions (Internship)</span>
             <p className="subTitleContext">
               {" "}
 			  <ul>
