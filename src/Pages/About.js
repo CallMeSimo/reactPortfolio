@@ -1,7 +1,7 @@
 export default function NotFound() {
   return (
     <div>
-      <h2>ABOUt page</h2>
+      <h2>About Page</h2>
     </div>
   );
 }
