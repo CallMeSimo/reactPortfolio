@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="Footer">
-      <span>Copyright</span>
+      <span>&copy; Copyright 2023</span>
     </footer>
   );
 }
