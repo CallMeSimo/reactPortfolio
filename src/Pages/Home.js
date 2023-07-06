@@ -17,7 +17,7 @@ export default function Home() {
           <div>
             <h1>Wassim El Haddaoui</h1>
             <p>
-              Webdeveloper <br />
+              Web developer <br />
               &#10088;Designer / Developer / Coffe drinker&#41;
             </p>
           </div>
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="synopsis">
           <h2>Synopsis</h2>
           <p>
-          I am an experienced software developer with a focus on creating efficient and effective solutions. Through my career, I have honed my skills in optimizing strategies, responsive design, and website analytics. I have successfully tackled complex hardware, software, and network issues, consistently demonstrating my problem-solving abilities. With a degree in Information and Media Technology, I have completed impactful IoT projects and gained experience leading workshops, highlighting my leadership and communication skills. Fluent in both Swedish and English, I possess excellent communication abilities essential for collaborating effectively with diverse teams</p>
+          I am an experienced software developer with a focus on creating efficient and effective solutions. Through my career, I have honed my skills in optimizing strategies, responsive design, and website analytics. I have successfully tackled complex hardware, software, and network issues, consistently demonstrating my problem-solving abilities. With a degree in Information and Media Technology, I have completed impactful IoT projects and gained experience leading workshops, highlighting my leadership and communication skills. Fluent in both Swedish and English, I possess excellent communication abilities essential for collaborating effectively with diverse teams.</p>
         </div>
         <div className="timeline">
           <h2>Experience</h2>
@@ -36,19 +36,16 @@ export default function Home() {
               {" "}
 			  <ul>
 				<li>
-				               Conducted site audits and implemented optimization strategies for improved site speed and SEO
+				        Conducted site audits and implemented optimization strategies for improved site speed and SEO.
 				</li>
 				<li>
-				                Developed responsive designs and mobile-first solutions
-
+				        Developed responsive designs and mobile-first solutions.
 				</li>
 				<li>
-				                Utilized website analytics tools, such as Google Analytics
-
+				        Utilized website analytics tools, such as Google Analytics.
 				</li>
 				<li>
- Demonstrated excellent problem-solving and debugging skills
-
+ 					Demonstrated excellent problem-solving and debugging skills
 				</li>
 			  </ul>
 
@@ -60,20 +57,16 @@ export default function Home() {
               {" "}
 			  <ul>
 				<li>
-				                              Guided and assigned tasks to a 3-person collaboration project
-
+				        Guided and assigned tasks to a 3-person collaboration project.
 				</li>
 				<li>
-				                Organized meetings to solve communication issues between devices
-
+				        Organized meetings to solve communication issues between devices.
 				</li>
 				<li>
- Divided responsibilities for creating HMI between designer and programmer
-
+ 					Divided responsibilities for creating HMI between designer and programmer.
 				</li>
 				<li>
- Operated complex hardware, software, and network problems and prepared reports summarizing and analyzing the issues
-
+ 					Operated complex hardware, software, and network problems and prepared reports summarizing and analyzing the issues.
 				</li>
  
 			  </ul>
@@ -85,16 +78,13 @@ export default function Home() {
             <p className="subTitleContext">
               {" "}<ul>
 				<li>
-              Manage and configure servers, drive enclosures, switches, desktops, and laptops
-
+              				Manage and configure servers, drive enclosures, switches, desktops, and laptops.
 				</li>
 				<li>
-Test and resolve basic issues related to networking equipment
-
+					Test and resolve basic issues related to networking equipment.
 				</li>
 				<li>
-Manage network configurations and set up new devices
-
+					Manage network configurations and set up new devices.
 				</li> 
 			  </ul>
 
@@ -139,7 +129,7 @@ Manage network configurations and set up new devices
           </div>
 </div> */}
         <div className="sources">
-          <h2>Sources</h2>
+          <h2>Links</h2>
 
           <div className="source" onClick={() => {window.location = "https://github.com/CallMeSimo"}}>
             <img src="Images\Github-Icon.svg" className="sourceImage subTitle" />
@@ -147,11 +137,11 @@ Manage network configurations and set up new devices
           </div>
           <div className="source" onClick={() => {window.location = "https://www.linkedin.com/in/wassim-el-haddaoui/"}}>
             <img src="Images\linkedin-icon.svg" className="sourceImage subTitle" />
-            <p className="subTitleContext">Or here</p>
+            <p className="subTitleContext">Or here.</p>
           </div>
           <div className="source" onClick={() => {window.open('mailto:Elhaddaouiwassim@gmail.com?subject=SimoPortfolio')}}>
             <img src="Images\email-icon.svg" className="sourceImage subTitle" />
-            <p className="subTitleContext">And here I guess</p>
+            <p className="subTitleContext">And here I guess...</p>
           </div>
         </div>
       </div>
