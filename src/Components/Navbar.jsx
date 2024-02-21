@@ -7,7 +7,7 @@ export default function Navbar() {
       <Link to="/Home">Home</Link>
       <Link to="/MyWork">MyWork</Link>
       <a
-        href={`/WassimElHaddaoui_ATSFriendly.pdf`}
+        href={`/00_WassimElHaddaoui_CV.pdf`}
         download="WassimElhaddaoui.pdf"
         className="resumeDownload"
       >
