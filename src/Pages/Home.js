@@ -26,53 +26,56 @@ export default function Home() {
         <div className="synopsis">
           <h2>Synopsis</h2>
           <p>
-          I am an experienced software developer with a focus on creating efficient and effective solutions. Through my career, I have honed my skills in optimizing strategies, responsive design, and website analytics. I have successfully tackled complex hardware, software, and network issues, consistently demonstrating my problem-solving abilities. With a degree in Information and Media Technology, I have completed impactful IoT projects and gained experience leading workshops, highlighting my leadership and communication skills. Fluent in both Swedish and English, I possess excellent communication abilities essential for collaborating effectively with diverse teams</p>
+          {/* I am an experienced software developer with a focus on creating efficient and effective solutions. Through my career, I have honed my skills in optimizing strategies, responsive design, and website analytics. I have successfully tackled complex hardware, software, and network issues, consistently demonstrating my problem-solving abilities. With a degree in Information and Media Technology, I have completed impactful IoT projects and gained experience leading workshops, highlighting my leadership and communication skills. Fluent in both Swedish and English, I possess excellent communication abilities essential for collaborating effectively with diverse teams */}
+          I build stuff, I also break stuff but lets forget that part.
+          </p>
         </div>
         <div className="timeline">
           <h2>Experience</h2>
           <div className="date">
-            <span className="timelineDate subTitle">April 2022 -<br /> May 2022 <br /><br />WordPress Developer, MADPromotions (Internship)</span>
+            <span className="timelineDate subTitle">April 2022 - May 2022 <br />WordPress Developer, MADPromotions (Internship)</span>
             <p className="subTitleContext">
               {" "}
 			  <ul>
 				<li>
-				               Conducted site audits and implemented optimization strategies for improved site speed and SEO
+        Genomförde webbplatsrevisioner och implementerade optimeringsstrategier för förbättrad sidhastighet och SEO
 				</li>
 				<li>
-				                Developed responsive designs and mobile-first solutions
-
+        Utvecklade responsiva designer och lösningar med mobil först
 				</li>
 				<li>
-				                Utilized website analytics tools, such as Google Analytics
-
+        Använde verktyg för webbanalys, såsom Google Analytics
 				</li>
 				<li>
- Demonstrated excellent problem-solving and debugging skills
-
+        Demonstrerade utmärkta problemlösnings- och felsökningsfärdigheter
 				</li>
 			  </ul>
 
             </p>
           </div>
           <div className="date ">
-            <span className="timelineDate subTitle">Mar 2022 - <br />Apr 2022 <br /><br /> Developer, ASSA ABLOY Entrance System (Internship)</span>
+            <span className="timelineDate subTitle">Mar 2022 - Apr 2022 <br /> Developer, ASSA ABLOY Entrance System (Internship)</span>
             <p className="subTitleContext">
               {" "}
 			  <ul>
 				<li>
-				                              Guided and assigned tasks to a 3-person collaboration project
+        Testade komplexa problem med hårdvara, mjukvara och nätverk; förberedde omfattande rapporter.
+
 
 				</li>
 				<li>
-				                Organized meetings to solve communication issues between devices
+        Ledde ett samarbetsprojekt med 3 personer.
 
 				</li>
 				<li>
- Divided responsibilities for creating HMI between designer and programmer
+        Planerade och organiserade projektet genom att använda Trello för att spåra framsteg och säkerställa effektiv kommunikation och samarbete inom teamet.
+				</li>
+				<li>
+        Organiserade möten för att lösa kommunikationsproblem mellan enheter.
 
 				</li>
 				<li>
- Operated complex hardware, software, and network problems and prepared reports summarizing and analyzing the issues
+        Samordnade skapandet av HMI mellan designers och programmerare.
 
 				</li>
  
@@ -81,19 +84,34 @@ export default function Home() {
             </p>{" "}
           </div>
           <div className="date ">
-            <span className="timelineDate subTitle">Oct 2022 - <br />Present<br /><br /> Technician, Stena Recycling AB</span>
+            <span className="timelineDate subTitle">Oct 2022 - Present<br /> Technician, Stena Recycling AB</span>
             <p className="subTitleContext">
               {" "}<ul>
+
+
 				<li>
-              Manage and configure servers, drive enclosures, switches, desktops, and laptops
+        Hantera och konfigurera servrar, diskkabinetter, switchar, stationära och bärbara datorer.
+
 
 				</li>
 				<li>
-Test and resolve basic issues related to networking equipment
+        Felsökning och problemlösning i nätverk, mjukvara och operativsystem.
 
 				</li>
 				<li>
-Manage network configurations and set up new devices
+        Service och support för installationer av arbetsstationer, bärbara och stationära datorer, samt annan IT-utrustning.
+
+				</li> 
+				<li>
+        Hantera nätverkskonfigurationer och ställ in nya enheter.
+
+				</li> 
+				<li>
+        Detaljerad dokumentation av produkt och processer.
+
+				</li> 
+				<li>
+        Medlem i förbättringskommittén. Förslag till kontinuerliga förbättringar inom teknik- och IT-området.
 
 				</li> 
 			  </ul>

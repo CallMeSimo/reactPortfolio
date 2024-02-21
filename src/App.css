@@ -71,6 +71,10 @@ ul{
   margin:0;
 }
 
+li{
+  margin: 10px 0;
+}
+
 /* .vis {
   top: 0;
   right: 0;
@@ -138,11 +142,11 @@ nav .resumeDownload:hover {
 
 .ContentContainer {
   box-shadow: 0 0 2px black;
+  background-color: #0d1117;
   position: relative;
   width: 80%;
   margin: auto;
   padding: 15px;
-  backdrop-filter: blur(3px);
 }
 
 .simoBanner {
@@ -197,7 +201,7 @@ nav .resumeDownload:hover {
   content: open-quote;
   font-size: 4rem;
   top: 3rem;
-  left: -0.8rem;
+  right: 1rem;
   position: absolute;
 }
 
@@ -206,13 +210,16 @@ nav .resumeDownload:hover {
 }
 .ContentContainer .timeline .date {
   display: flex;
-  margin: 10px 0;
+  margin: 10px ;
+  flex-direction: column;
+
 }
 .ContentContainer .timeline .timelineDate {
   /* margin-right: 25px; */
   font-weight: Bold;
   font-style: italic;
-  font-size:1em;
+  font-size:1.2em;
+  margin-bottom: 15px;
 }
 
 .ContentContainer .hobbies {
@@ -230,11 +237,9 @@ nav .resumeDownload:hover {
 
 .ContentContainer .subTitle {
   font-size: 0.8em;
-  width: 100px;
 }
 
 .ContentContainer .subTitleContext {
-  width: 200px;
   text-align: left;
   letter-spacing: 1px;
 }
@@ -246,8 +251,7 @@ nav .resumeDownload:hover {
 }
 .ContentContainer .source {
   display: flex;
-  
-  justify-content: center;
+  gap: 50px;
   align-items: center;
   height: 40px;
 }
@@ -434,11 +438,7 @@ nav .resumeDownload:hover {
   .ContentContainer .timeline {
     display:flex;
     flex-direction: column;
-	
-  }
-  .ContentContainer .timeline .date {
-    display: flex;
-    margin: 40px 0;
+    gap: 25px;
   }
   .ContentContainer .timeline .timelineDate {
     /* margin-right: 25px; */
@@ -463,11 +463,9 @@ nav .resumeDownload:hover {
   .ContentContainer .subTitle {
     font-family: var(--font-roboto);
     font-size: 0.70em;
-    width: 125px;
   }
 
   .ContentContainer .subTitleContext {
-    width: 550px;
     text-align: left;
     letter-spacing: 2px;
   }
