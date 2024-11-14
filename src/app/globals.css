@@ -15,22 +15,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-.experimentalArt{
-  text-align: right;
-  color:#EF476F;
-  text-shadow: 5px 10px black;
-  position:absolute;
-  font-size:3em;
-  height:100vh;
-  z-index:0;
-  right:0;
-  display:flex;
-  flex-direction:column;
-  line-height:45px;
-}
-.experimentalArt .test{
-  color:#FCBCB8;
-}
+
 @media (max-width : 720px) {
     .experimentalArt {display:none;}
 }
