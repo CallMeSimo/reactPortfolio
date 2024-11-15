@@ -64,7 +64,7 @@ function AboutSection() {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
         <div style={{ borderRadius: "10%", overflow: "hidden" }}>
            <video width="550" autoPlay loop muted>
-      <source src="/images/Aboutspin.webm" type="video/webm"/>
+      <source src="/images/Aboutspin480.webm" type="video/webm"/>
      </video>
         </div>
         {/* <iframe
