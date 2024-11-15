@@ -23,6 +23,14 @@
     "InfoUrl": "https://simoportfolio.com/images/3Dprojects/Balk.png",
     "tag": ["All", "CAD"]
   },
+  {
+    "id": 11,
+    "title": "45 APC",
+    "description": "Made in Creo Parametric.",
+    "image": "/images/3Dprojects/bullet.jpg",
+    "InfoUrl": "https://localhost:3000/images/3Dprojects/bullet.jpg",
+    "tag": ["All", "CAD"]
+  },
     {
     "id": 1,
     "title": "Crimewatch App",

@@ -63,11 +63,11 @@ const HeroSection = () => {
           <div className="shadow-2xl md:skew-y-12 rounded-full bg-[#E2C044] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative">
             {" "}
             <Image
-              className=" absolute rounded-full animate-hover transform top-0 left-0 md:top-0 md:left-20"
-              src="/images/p6.png"
+              className=" absolute rounded-full animate-hover transform bottom-0 left-0 md:bottom-0 md:left-0"
+              src="/images/profile_frame.png"
               alt="hero image"
-              width={225}
-              height={225}
+              width={625}
+              height={625}
             />
           </div>
         </div>
