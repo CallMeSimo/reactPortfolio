@@ -36,24 +36,8 @@ const ReferalData = [
 export const Testimonials = () => {
   return (
     <div>
-      <h2 className=" text-4xl font-bold text-yellow-300   mb-4 border-b-4 border-purple-500">
-        Testimonials{" "}
-        <TypeAnimation
-          sequence={[
-            // Same substring at the start will only be typed out once, initially
-            ".",
-            1500, // wait 1.5s before replacing
-            "..",
-            1500,
-            "...",
-            1500,
-            "",
-            1500,
-          ]}
-          speed={50}
-          repeat={Infinity}
-          cursor={false}
-        />
+      <h2 className=" text-4xl font-bold text-white-300   mb-4">
+        Testimonials
       </h2>
       {ReferalData.map((referal) => {
         return (

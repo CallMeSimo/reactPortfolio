@@ -17,45 +17,25 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 mt-40">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white  h-40 mb-4 text-4xl sm:text-5xl  lg:text-6xl font-extrabold">
-            <span className="text-transparent  bg-clip-text bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
-              Hello, I am{" "}
+            <span className="bg-clip-text  text-white-300">
+              Hello, I am mechanical engineer.
             </span>
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Wassim",
-                3000, // wait 1.5s before replacing
-                "a mechanical engineer",
-                3000,
-                "a tech hobbiest",
-                3000,
-              ]}
-              speed={50}
-              repeat={Infinity}
-              cursor={false}
-            />
-            ;
           </h1>
           <p className="text-[#ADB7BE] text-lg mb-6 lg:text-xl">
-            Welcome to my page I upload a wide range of projects, some fun, some
-            serious. I am what you would call a generalist, jack of all trades.
+            Welcome to my page, I upload a variety of projects to showcase my skills.
           </p>
           <div>
             <a
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white"
-            >
+					className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-black-300 border border-white hover:bg-slate-200 text-white">
               Contact Me
             </a>
             <a
-              href="/Documents/00_WassimElHaddaoui_CV.pdf"
+              href="\Documents\Resumé_WEH.pdf"
               download="WassimElHaddaoui_CV.pdf"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+					className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-black-300 border border-white hover:bg-slate-200 text-white">
+
                 Resumé
-              </span>
             </a>
           </div>
         </div>

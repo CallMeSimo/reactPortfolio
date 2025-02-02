@@ -20,7 +20,7 @@ const ProjectSection = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-yellow-300 mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white-300 mt-4 mb-8 md:mb-12">
         Projects / Current-Projects
       </h2>
       <div
@@ -42,11 +42,11 @@ const ProjectSection = () => {
           name="Hardware"
           isSelected={tag === "Hardware"}
         />
-          <ProjectTags
+         {/* <ProjectTags
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
-        />
+		 /> */}
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project) => (

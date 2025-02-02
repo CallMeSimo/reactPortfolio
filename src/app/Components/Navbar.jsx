@@ -30,23 +30,7 @@ const Navbar = () => {
   return (
     <nav className="fixed left-0 right-0 top-0 z-10 bg-[#121212] bg-opacity-90 lg:bg-opacity-70">
       <div className="flex container flex-warp items-center justify-between mx-auto px-4 py-4">
-        <Link href={"/#"} className="text-4xl text-whit font-semibold">Simo
-          <TypeAnimation
-            sequence={[
-              2000, // wait 2s before replacing
-              // Same substring at the start will only be typed out once, initially
-              ".",
-              2000,
-              "..",
-              2000,
-              "...",
-              2000,
-            ]}
-            wrapper="span"
-            speed={5}
-            repeat={Infinity}
-            cursor={false}
-          />
+        <Link href={"/#"} className="text-4xl text-whit font-semibold">Simo.
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

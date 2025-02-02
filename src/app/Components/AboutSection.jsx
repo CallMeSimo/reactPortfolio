@@ -41,7 +41,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Test Technician</li>
         <li>Developer</li>
-        <li>Wordpress-devloper</li>
+        <li>Wordpress-developer</li>
         <li>Marketing</li>
         <li>Team lead</li>
       </ul>
@@ -76,25 +76,8 @@ function AboutSection() {
           allowFullScreen
         ></iframe> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-yellow-300  mb-4">
-            About me{" "}
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                ".",
-                1500, // wait 2s before replacing
-                "..",
-                1500,
-                "...",
-                1500,
-                "",
-                1500,
-              ]}
-              wrapper="span"
-              speed={25}
-              repeat={Infinity}
-              cursor={false}
-            />
+          <h2 className="text-4xl font-bold text-white-300  mb-4">
+            About me
           </h2>
           <p className="text-base lg:text-lg text-justify">
             I am a mechanical engineering and materials science student with a strong understanding of 
